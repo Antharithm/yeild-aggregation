@@ -14,7 +14,7 @@ pragma solidity ^0.8.18;
 // Bonus:
 // emit events and fail catch test cases
 
-contract YeildAggregator {
+contract YieldAggregator {
 
 
 

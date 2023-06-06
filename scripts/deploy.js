@@ -6,12 +6,12 @@ const hre = require("hardhat");
 
 async function main() {
 
-  // Deploy YeildAggregator
-  const YeildAggregator = await ethers.getContractFactory('YeildAggregator')
-  const yeildAggregator = await YeildAggregator.deploy()
-  await yeildAggregator.deployed()
+  // Deploy YieldAggregator
+  const YieldAggregator = await ethers.getContractFactory('YieldAggregator')
+  const yieldAggregator = await YieldAggregator.deploy()
+  await yieldAggregator.deployed()
 
-  console.log(`Deployed YeildAggregator Contract at: ${yeildAggregator.address}`)
+  console.log(`Deployed YieldAggregator Contract at: ${yieldAggregator.address}`)
   console.log(`Finished.`)
 }
 
